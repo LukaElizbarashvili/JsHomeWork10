@@ -13,6 +13,9 @@ async function asyncFnc() {
         mosuliData.data.forEach((element) => {
           const li = document.createElement("li");
           li.textContent = `${element.name}`;
+          let img = document.createElement("img");
+          img.src = element.imageUrl;
+          li.appendChild(img);
           listItems.push(li);
     
           inputResult.appendChild(li);

@@ -2,6 +2,12 @@
 .ul_result li.hide{
     display: none;
 }
+li{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
 .ul_result{
     height: 250px;
+
 }
